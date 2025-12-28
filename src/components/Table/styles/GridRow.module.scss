@@ -1,0 +1,22 @@
+.row {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	gap: 1rem;
+	padding: 0.75rem 0.5rem;
+	border-bottom: 1px solid #1e293b;
+	font-size: 0.875rem;
+
+	p {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	&:nth-child(even) {
+		background-color: rgba(255, 255, 255, 0.03);
+	}
+
+	&:hover {
+		background-color: rgba(59, 130, 246, 0.15);
+	}
+}

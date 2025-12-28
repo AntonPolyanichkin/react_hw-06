@@ -1,0 +1,62 @@
+.calculator {
+  background: linear-gradient(145deg, #020e45, rgba(23, 37, 101, 0.8666666667));
+  padding: 1.25rem;
+}
+.calculator__container {
+  max-width: 50rem;
+}
+.calculator__field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.calculator__result {
+  background: #020e45;
+  padding-block: 1.5625rem;
+}
+.calculator__counter {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 1.875rem;
+  line-height: 1.2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.field-calculator {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 1.875rem;
+  line-height: 1.2;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.25rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.field-calculator input {
+  font-size: 1.5625rem;
+  padding-block: 1.25rem;
+  padding-inline: 0.625rem;
+  background-color: #062093;
+  border-radius: 0.625rem;
+}
+.field-calculator input:focus, .field-calculator input:focus-visible {
+  outline: 0.0625rem solid #fff;
+}
